@@ -1,0 +1,19 @@
+{
+  "name": "React (Vite) devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20", 
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

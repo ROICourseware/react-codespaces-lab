@@ -1,9 +1,9 @@
-function Book({title , author  }) {
+function Book({title , author, showBook, bookId}) {
 
     return (
         <tr>
             <td>
-                {title}
+               <a href="#" onClick={() => showBook(bookId)}>{title}</a>
             </td>
             <td>{author}</td>
         </tr>

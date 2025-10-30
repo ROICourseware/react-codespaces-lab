@@ -8,6 +8,8 @@ function BookList() {
     const [book, setBook] = useState({});
     const [reviews, setReviews] = useState([]);
     const [review, setReview] = useState('');
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
 
 
     return (

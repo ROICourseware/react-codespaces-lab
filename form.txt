@@ -1,0 +1,7 @@
+                    <form className="form-group form-inline">
+                        <label className="control-label">Review:
+                            <input type="text" className="form-control" required
+                                 />
+                        </label>
+                        <button type="submit" className="btn btn-primary">Add Review</button>
+                    </form>

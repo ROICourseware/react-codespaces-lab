@@ -22,7 +22,7 @@ function BookList() {
                 <tbody>
                     {
                         books.map(function (item, i) {
-                            return <Book author={item.author} title={item.title} bookId={item.id} showBook={showBook} key={i} />;
+                            return <Book author={item.author} title={item.title} bookId={item.id} key={i} />;
                         })
                     }
                 </tbody>

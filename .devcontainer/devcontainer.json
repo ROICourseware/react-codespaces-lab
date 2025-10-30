@@ -1,11 +1,16 @@
 {
   "name": "React (Vite) devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20", 
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    }
   },
+
   "postCreateCommand": "npm install",
   "forwardPorts": [5173],
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,6 +19,5 @@
         "eamodio.gitlens"
       ]
     }
-  },
-  "remoteUser": "vscode"
+  }
 }

@@ -1,7 +1,6 @@
 function ReviewList({ reviews}) {
 
-    return (<>
-        <div className="table-responsive">
+    return (<div className="table-responsive">
             <table className="table table-bordered table-striped">
                 <thead>
                     <tr>
@@ -17,8 +16,7 @@ function ReviewList({ reviews}) {
                     )}
                 </tbody>
             </table>
-        </div>
-        </>);
+        </div>);
 }
 
 export default ReviewList;

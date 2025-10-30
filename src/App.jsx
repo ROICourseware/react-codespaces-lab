@@ -9,9 +9,6 @@ function App() {
       <nav className="navbar navbar-expand-sm bg-light">
         <a className="navbar-brand" href="/">Book Reactions</a>
       </nav>
-      <p className="container">
-        Where you react to books.
-      </p>
       <div className="container">
         <BookList />
       </div>

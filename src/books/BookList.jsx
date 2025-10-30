@@ -17,22 +17,12 @@ function BookList() {
         setBooks([...books, book]);
     }
 
-    const [title, setTitle] = useState("");
-    const [author, setAuthor] = useState("");
-
 
     return (
         <div className="table-responsive">
-              <form onSubmit={(e) => {
-                  e.preventDefault();
-                  addBook({ title, author });
-                  setTitle("");
-                  setAuthor("");
-              }}>
-		Title:<input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-		Author:<input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} />
-      	<button type="submit" className="btn btn-primary" >Add Book</button>
-	</form>
+        	<button type="button" className="btn btn-primary" onClick={() => {
+                addBook({ title: "The Silmarillion", author: "J R R Tolkien" });
+            }}>Add Book</button>
 
             <table className="table table-bordered table-striped">
                 <thead>

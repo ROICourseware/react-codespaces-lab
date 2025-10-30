@@ -4,7 +4,7 @@ function ReviewList({ reviews}) {
             <table className="table table-bordered table-striped">
                 <thead>
                     <tr>
-                        <th>Review</th>
+                        <th>Reviews</th>
                     </tr>
                 </thead>
                 <tbody>

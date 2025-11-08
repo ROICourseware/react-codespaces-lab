@@ -1,1 +1,1 @@
-const url = "https://api-748767445624.us-central1.run.app/api/bookreactions";
+const url = "https://trek-api-823886233698.europe-west1.run.app/api/bookreactions";
